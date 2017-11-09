@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="A">
+		<head>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<title>prueba</title>
+		</head>
+	<body ng-controller="ejemplo">
+	<h1>Nombre</h1>
+	<input type="text" ng-model="Nombre">
+	<h2>Apellido</h2>
+	<input type="text" ng-model="Apellido">
+	<button style="margin-top: 20px; display: block;" ng-click="formulario()">Mostrar</button>
+	<h2>{{nombrecompleto}}</h2>
+	<script src="angular.min.js"></script>
+	<script src="prueba.js"></script>	
+	</body>
+</html>
